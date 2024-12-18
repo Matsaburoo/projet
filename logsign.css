@@ -1,0 +1,28 @@
+
+.btn{
+	-fx-cursor: hand;
+	-fx-text-fill: white;
+	-fx-background-color: linear-gradient(to bottom right,#16a47c,#2a827b);
+	-fx-font-family:"Arial";
+	-fx-font-weight:700;
+	-fx-font-size:1.4em;
+	-fx-text-alignment: center;
+	
+}
+.btn:hover {
+	-fx-background-color: #1f5c4d; 
+
+}
+.textfild{
+	
+	-fx-border-color:#000;
+	-fx-border-width:.5px;
+	
+	
+}
+
+.textfild:focused{
+	-fx-border-color: linear-gradient(to bottom right,#16a47c,#2a827b);
+	-fx-border-width:.8px;
+	
+}

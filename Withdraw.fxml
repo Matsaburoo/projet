@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="527.0" prefWidth="692.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HomeController">
+   <children>
+      <Label layoutX="63.0" layoutY="102.0" prefHeight="64.0" prefWidth="578.0" text="Put the amount you want to Withdraw" textFill="#f3f4f4">
+         <font>
+            <Font name="Arial Bold Italic" size="30.0" />
+         </font>
+      </Label>
+      <TextField layoutX="163.0" layoutY="210.0" prefHeight="53.0" prefWidth="350.0" promptText="Put the amount you want withdraw">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextField>
+      <Button layoutX="180.0" layoutY="316.0" mnemonicParsing="false" onAction="#withdraw" prefHeight="42.0" prefWidth="145.0" style="-fx-background-color: white;" text="Withdraw" textFill="#31ac5e">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="65.0" layoutY="442.0" prefHeight="18.0" prefWidth="522.0" text="Operation was successful or failed(because withdraw &gt; balance)" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="367.0" layoutY="316.0" mnemonicParsing="false" onAction="#switchtoHome" prefHeight="42.0" prefWidth="145.0" style="-fx-background-color: white;" text="Home" textFill="#31ac5e">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

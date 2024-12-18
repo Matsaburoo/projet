@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="502.0" prefWidth="776.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HomeController">
+   <top>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="174.0" layoutY="108.0" prefHeight="43.0" prefWidth="427.0" text="Welcome w 7ot username te3ou" textFill="WHITE">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <FontAwesomeIconView fill="WHITE" glyphName="USER" layoutX="348.0" layoutY="83.0" size="80" wrappingWidth="80.5713062286377" />
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="105.0" layoutY="74.0" mnemonicParsing="false" onAction="#switchtoBalance" style="-fx-background-color: white;" text="Balance" textFill="#42e41e">
+               <font>
+                  <Font name="System Bold Italic" size="23.0" />
+               </font>
+            </Button>
+            <Button layoutX="516.0" layoutY="74.0" mnemonicParsing="false" onAction="#switchtoWithdraw" style="-fx-background-color: white;" text="Withdraw" textFill="#42e41e">
+               <font>
+                  <Font name="System Bold Italic" size="23.0" />
+               </font>
+            </Button>
+            <Button layoutX="309.0" layoutY="74.0" mnemonicParsing="false" onAction="#switchtoDeposit" style="-fx-background-color: white;" text="Deposit" textFill="#42e41e">
+               <font>
+                  <Font name="System Bold Italic" size="23.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
